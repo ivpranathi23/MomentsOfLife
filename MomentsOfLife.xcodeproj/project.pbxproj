@@ -7,43 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E20A38D22293C63A00F7AFD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A38D12293C63A00F7AFD5 /* AppDelegate.swift */; };
-		E20A38D42293C63A00F7AFD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A38D32293C63A00F7AFD5 /* ViewController.swift */; };
-		E20A38D72293C63A00F7AFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20A38D52293C63A00F7AFD5 /* Main.storyboard */; };
-		E20A38DA2293C63A00F7AFD5 /* MomentsOfLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E20A38D82293C63A00F7AFD5 /* MomentsOfLife.xcdatamodeld */; };
-		E20A38DC2293C63D00F7AFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20A38DB2293C63D00F7AFD5 /* Assets.xcassets */; };
-		E20A38DF2293C63D00F7AFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20A38DD2293C63D00F7AFD5 /* LaunchScreen.storyboard */; };
-		E20A38E72293DD2700F7AFD5 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A38E62293DD2700F7AFD5 /* DatePickerViewController.swift */; };
-		E20A38E92293DD5800F7AFD5 /* DiaryTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A38E82293DD5800F7AFD5 /* DiaryTextViewController.swift */; };
-		E20A38EB2293E82300F7AFD5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A38EA2293E82300F7AFD5 /* CoreDataManager.swift */; };
-		E20A38EE2293E8CC00F7AFD5 /* PersonalDiary+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A38EC2293E8CC00F7AFD5 /* PersonalDiary+CoreDataClass.swift */; };
-		E20A38EF2293E8CC00F7AFD5 /* PersonalDiary+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A38ED2293E8CC00F7AFD5 /* PersonalDiary+CoreDataProperties.swift */; };
-		E20A38F12294316200F7AFD5 /* ViewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A38F02294316200F7AFD5 /* ViewDetailsViewController.swift */; };
-		E20A38F32294318D00F7AFD5 /* ViewDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A38F22294318D00F7AFD5 /* ViewDetailsTableViewCell.swift */; };
-		E23EA4AC22A6ED64002653DB /* Group 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E23EA4AB22A6ED63002653DB /* Group 2.jpg */; };
-		E2F49C6B229DA4EA004750CD /* detaileddescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F49C6A229DA4EA004750CD /* detaileddescViewController.swift */; };
-		E2F49C6F229DAEAD004750CD /* Group.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2F49C6E229DAEAD004750CD /* Group.jpg */; };
+		F1EAC48225DB455600EF1529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC47825DB455500EF1529 /* LaunchScreen.storyboard */; };
+		F1EAC48325DB455600EF1529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC47A25DB455600EF1529 /* Main.storyboard */; };
+		F1EAC48425DB455600EF1529 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC47D25DB455600EF1529 /* Info.plist */; };
+		F1EAC48525DB455600EF1529 /* Group 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC47F25DB455600EF1529 /* Group 2.jpg */; };
+		F1EAC48625DB455600EF1529 /* Group.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC48025DB455600EF1529 /* Group.jpg */; };
+		F1EAC48725DB455600EF1529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC48125DB455600EF1529 /* Assets.xcassets */; };
+		F1EAC49925DB455D00EF1529 /* ViewDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC48B25DB455D00EF1529 /* ViewDetailsTableViewCell.swift */; };
+		F1EAC49A25DB455D00EF1529 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC48D25DB455D00EF1529 /* CoreDataManager.swift */; };
+		F1EAC49B25DB455D00EF1529 /* PersonalDiary+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC48E25DB455D00EF1529 /* PersonalDiary+CoreDataClass.swift */; };
+		F1EAC49C25DB455D00EF1529 /* PersonalDiary+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC48F25DB455D00EF1529 /* PersonalDiary+CoreDataProperties.swift */; };
+		F1EAC49D25DB455D00EF1529 /* MomentsOfLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC49025DB455D00EF1529 /* MomentsOfLife.xcdatamodeld */; };
+		F1EAC49E25DB455D00EF1529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC49225DB455D00EF1529 /* AppDelegate.swift */; };
+		F1EAC49F25DB455D00EF1529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC49425DB455D00EF1529 /* ViewController.swift */; };
+		F1EAC4A025DB455D00EF1529 /* ViewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC49525DB455D00EF1529 /* ViewDetailsViewController.swift */; };
+		F1EAC4A125DB455D00EF1529 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC49625DB455D00EF1529 /* DatePickerViewController.swift */; };
+		F1EAC4A225DB455D00EF1529 /* detaileddescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC49725DB455D00EF1529 /* detaileddescViewController.swift */; };
+		F1EAC4A325DB455D00EF1529 /* DiaryTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC49825DB455D00EF1529 /* DiaryTextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E20A38CE2293C63A00F7AFD5 /* MomentsOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomentsOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E20A38D12293C63A00F7AFD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E20A38D32293C63A00F7AFD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E20A38D62293C63A00F7AFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E20A38D92293C63A00F7AFD5 /* MomentsOfLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MomentsOfLife.xcdatamodel; sourceTree = "<group>"; };
-		E20A38DB2293C63D00F7AFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E20A38DE2293C63D00F7AFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E20A38E02293C63D00F7AFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E20A38E62293DD2700F7AFD5 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
-		E20A38E82293DD5800F7AFD5 /* DiaryTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTextViewController.swift; sourceTree = "<group>"; };
-		E20A38EA2293E82300F7AFD5 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		E20A38EC2293E8CC00F7AFD5 /* PersonalDiary+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PersonalDiary+CoreDataClass.swift"; path = "MomentsOfLife/PersonalDiary+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E20A38ED2293E8CC00F7AFD5 /* PersonalDiary+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PersonalDiary+CoreDataProperties.swift"; path = "MomentsOfLife/PersonalDiary+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E20A38F02294316200F7AFD5 /* ViewDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailsViewController.swift; sourceTree = "<group>"; };
-		E20A38F22294318D00F7AFD5 /* ViewDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailsTableViewCell.swift; sourceTree = "<group>"; };
-		E23EA4AB22A6ED63002653DB /* Group 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Group 2.jpg"; sourceTree = "<group>"; };
-		E2F49C6A229DA4EA004750CD /* detaileddescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detaileddescViewController.swift; sourceTree = "<group>"; };
-		E2F49C6E229DAEAD004750CD /* Group.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Group.jpg; sourceTree = "<group>"; };
+		F1EAC47925DB455600EF1529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1EAC47B25DB455600EF1529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1EAC47D25DB455600EF1529 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EAC47F25DB455600EF1529 /* Group 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Group 2.jpg"; sourceTree = "<group>"; };
+		F1EAC48025DB455600EF1529 /* Group.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Group.jpg; sourceTree = "<group>"; };
+		F1EAC48125DB455600EF1529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1EAC48B25DB455D00EF1529 /* ViewDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		F1EAC48D25DB455D00EF1529 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F1EAC48E25DB455D00EF1529 /* PersonalDiary+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersonalDiary+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F1EAC48F25DB455D00EF1529 /* PersonalDiary+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersonalDiary+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F1EAC49125DB455D00EF1529 /* MomentsOfLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MomentsOfLife.xcdatamodel; sourceTree = "<group>"; };
+		F1EAC49225DB455D00EF1529 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1EAC49425DB455D00EF1529 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1EAC49525DB455D00EF1529 /* ViewDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDetailsViewController.swift; sourceTree = "<group>"; };
+		F1EAC49625DB455D00EF1529 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		F1EAC49725DB455D00EF1529 /* detaileddescViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detaileddescViewController.swift; sourceTree = "<group>"; };
+		F1EAC49825DB455D00EF1529 /* DiaryTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryTextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +61,6 @@
 		E20A38C52293C63A00F7AFD5 = {
 			isa = PBXGroup;
 			children = (
-				E20A38EC2293E8CC00F7AFD5 /* PersonalDiary+CoreDataClass.swift */,
-				E20A38ED2293E8CC00F7AFD5 /* PersonalDiary+CoreDataProperties.swift */,
 				E20A38D02293C63A00F7AFD5 /* MomentsOfLife */,
 				E20A38CF2293C63A00F7AFD5 /* Products */,
 			);
@@ -78,23 +77,89 @@
 		E20A38D02293C63A00F7AFD5 /* MomentsOfLife */ = {
 			isa = PBXGroup;
 			children = (
-				E20A38D12293C63A00F7AFD5 /* AppDelegate.swift */,
-				E20A38D32293C63A00F7AFD5 /* ViewController.swift */,
-				E20A38D52293C63A00F7AFD5 /* Main.storyboard */,
-				E20A38DB2293C63D00F7AFD5 /* Assets.xcassets */,
-				E23EA4AB22A6ED63002653DB /* Group 2.jpg */,
-				E20A38DD2293C63D00F7AFD5 /* LaunchScreen.storyboard */,
-				E20A38E02293C63D00F7AFD5 /* Info.plist */,
-				E20A38D82293C63A00F7AFD5 /* MomentsOfLife.xcdatamodeld */,
-				E2F49C6E229DAEAD004750CD /* Group.jpg */,
-				E20A38EA2293E82300F7AFD5 /* CoreDataManager.swift */,
-				E20A38E62293DD2700F7AFD5 /* DatePickerViewController.swift */,
-				E20A38E82293DD5800F7AFD5 /* DiaryTextViewController.swift */,
-				E20A38F02294316200F7AFD5 /* ViewDetailsViewController.swift */,
-				E20A38F22294318D00F7AFD5 /* ViewDetailsTableViewCell.swift */,
-				E2F49C6A229DA4EA004750CD /* detaileddescViewController.swift */,
+				F1EAC48925DB455D00EF1529 /* Sources */,
+				F1EAC47625DB455500EF1529 /* Resources */,
 			);
 			path = MomentsOfLife;
+			sourceTree = "<group>";
+		};
+		F1EAC47625DB455500EF1529 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAC47725DB455500EF1529 /* Interfaces-Views */,
+				F1EAC47C25DB455600EF1529 /* SupportingFiles */,
+				F1EAC47E25DB455600EF1529 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F1EAC47725DB455500EF1529 /* Interfaces-Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAC47825DB455500EF1529 /* LaunchScreen.storyboard */,
+				F1EAC47A25DB455600EF1529 /* Main.storyboard */,
+			);
+			path = "Interfaces-Views";
+			sourceTree = "<group>";
+		};
+		F1EAC47C25DB455600EF1529 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAC47D25DB455600EF1529 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F1EAC47E25DB455600EF1529 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAC47F25DB455600EF1529 /* Group 2.jpg */,
+				F1EAC48025DB455600EF1529 /* Group.jpg */,
+				F1EAC48125DB455600EF1529 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F1EAC48925DB455D00EF1529 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAC48A25DB455D00EF1529 /* Cells */,
+				F1EAC48C25DB455D00EF1529 /* Model */,
+				F1EAC49225DB455D00EF1529 /* AppDelegate.swift */,
+				F1EAC49325DB455D00EF1529 /* Controllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F1EAC48A25DB455D00EF1529 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAC48B25DB455D00EF1529 /* ViewDetailsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F1EAC48C25DB455D00EF1529 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAC48D25DB455D00EF1529 /* CoreDataManager.swift */,
+				F1EAC48E25DB455D00EF1529 /* PersonalDiary+CoreDataClass.swift */,
+				F1EAC48F25DB455D00EF1529 /* PersonalDiary+CoreDataProperties.swift */,
+				F1EAC49025DB455D00EF1529 /* MomentsOfLife.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1EAC49325DB455D00EF1529 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAC49425DB455D00EF1529 /* ViewController.swift */,
+				F1EAC49525DB455D00EF1529 /* ViewDetailsViewController.swift */,
+				F1EAC49625DB455D00EF1529 /* DatePickerViewController.swift */,
+				F1EAC49725DB455D00EF1529 /* detaileddescViewController.swift */,
+				F1EAC49825DB455D00EF1529 /* DiaryTextViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,11 +220,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20A38DF2293C63D00F7AFD5 /* LaunchScreen.storyboard in Resources */,
-				E2F49C6F229DAEAD004750CD /* Group.jpg in Resources */,
-				E20A38DC2293C63D00F7AFD5 /* Assets.xcassets in Resources */,
-				E20A38D72293C63A00F7AFD5 /* Main.storyboard in Resources */,
-				E23EA4AC22A6ED64002653DB /* Group 2.jpg in Resources */,
+				F1EAC48625DB455600EF1529 /* Group.jpg in Resources */,
+				F1EAC48225DB455600EF1529 /* LaunchScreen.storyboard in Resources */,
+				F1EAC48525DB455600EF1529 /* Group 2.jpg in Resources */,
+				F1EAC48325DB455600EF1529 /* Main.storyboard in Resources */,
+				F1EAC48725DB455600EF1529 /* Assets.xcassets in Resources */,
+				F1EAC48425DB455600EF1529 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,37 +236,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20A38EB2293E82300F7AFD5 /* CoreDataManager.swift in Sources */,
-				E2F49C6B229DA4EA004750CD /* detaileddescViewController.swift in Sources */,
-				E20A38EF2293E8CC00F7AFD5 /* PersonalDiary+CoreDataProperties.swift in Sources */,
-				E20A38E72293DD2700F7AFD5 /* DatePickerViewController.swift in Sources */,
-				E20A38D42293C63A00F7AFD5 /* ViewController.swift in Sources */,
-				E20A38F12294316200F7AFD5 /* ViewDetailsViewController.swift in Sources */,
-				E20A38F32294318D00F7AFD5 /* ViewDetailsTableViewCell.swift in Sources */,
-				E20A38E92293DD5800F7AFD5 /* DiaryTextViewController.swift in Sources */,
-				E20A38DA2293C63A00F7AFD5 /* MomentsOfLife.xcdatamodeld in Sources */,
-				E20A38D22293C63A00F7AFD5 /* AppDelegate.swift in Sources */,
-				E20A38EE2293E8CC00F7AFD5 /* PersonalDiary+CoreDataClass.swift in Sources */,
+				F1EAC4A325DB455D00EF1529 /* DiaryTextViewController.swift in Sources */,
+				F1EAC49E25DB455D00EF1529 /* AppDelegate.swift in Sources */,
+				F1EAC49B25DB455D00EF1529 /* PersonalDiary+CoreDataClass.swift in Sources */,
+				F1EAC4A125DB455D00EF1529 /* DatePickerViewController.swift in Sources */,
+				F1EAC4A025DB455D00EF1529 /* ViewDetailsViewController.swift in Sources */,
+				F1EAC49C25DB455D00EF1529 /* PersonalDiary+CoreDataProperties.swift in Sources */,
+				F1EAC49A25DB455D00EF1529 /* CoreDataManager.swift in Sources */,
+				F1EAC4A225DB455D00EF1529 /* detaileddescViewController.swift in Sources */,
+				F1EAC49F25DB455D00EF1529 /* ViewController.swift in Sources */,
+				F1EAC49925DB455D00EF1529 /* ViewDetailsTableViewCell.swift in Sources */,
+				F1EAC49D25DB455D00EF1529 /* MomentsOfLife.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E20A38D52293C63A00F7AFD5 /* Main.storyboard */ = {
+		F1EAC47825DB455500EF1529 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E20A38D62293C63A00F7AFD5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E20A38DD2293C63D00F7AFD5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E20A38DE2293C63D00F7AFD5 /* Base */,
+				F1EAC47925DB455600EF1529 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F1EAC47A25DB455600EF1529 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1EAC47B25DB455600EF1529 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -386,12 +452,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E20A38D82293C63A00F7AFD5 /* MomentsOfLife.xcdatamodeld */ = {
+		F1EAC49025DB455D00EF1529 /* MomentsOfLife.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E20A38D92293C63A00F7AFD5 /* MomentsOfLife.xcdatamodel */,
+				F1EAC49125DB455D00EF1529 /* MomentsOfLife.xcdatamodel */,
 			);
-			currentVersion = E20A38D92293C63A00F7AFD5 /* MomentsOfLife.xcdatamodel */;
+			currentVersion = F1EAC49125DB455D00EF1529 /* MomentsOfLife.xcdatamodel */;
 			path = MomentsOfLife.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
